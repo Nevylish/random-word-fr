@@ -1,9 +1,9 @@
 'use strict';
-var fs = require('fs');
-var got = require('got');
-var url = 'https://raw.github.com/atebits/Words/master/Words/fr.txt';
+const fs = require('fs');
+const got = require('got');
+const url = 'https://github.com/Taknok/French-Wordlist/blob/master/francais.txt';
 
-got(url, function (err, res) {
+got(url, (err, res) => {
 	if (err) {
 		throw new Error(err);
 	}

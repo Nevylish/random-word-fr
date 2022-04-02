@@ -1,6 +1,6 @@
 {
   "name": "random-word-fr",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Get a random French word",
   "license": "MIT",
   "repository": "jbpasquier/random-word-fr",
@@ -8,6 +8,9 @@
     "name": "Jean-Baptiste Pasquier",
     "email": "contact@jbpasquier.eu"
   },
+  "contributors": [
+    "Nevylish"
+  ],
   "bin": "cli.js",
   "engines": {
     "node": ">=0.10.0"
