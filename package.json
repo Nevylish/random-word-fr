@@ -37,7 +37,6 @@
     "dictionary"
   ],
   "dependencies": {
-    "meow": "^3.4.0",
     "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
