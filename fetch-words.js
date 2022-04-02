@@ -1,7 +1,7 @@
 'use strict';
 const fs = require('fs');
 const got = require('got');
-const url = 'https://github.com/Taknok/French-Wordlist/blob/master/francais.txt';
+const url = 'https://raw.github.com/atebits/Words/master/Words/fr.txt';
 
 got(url, (err, res) => {
 	if (err) {
